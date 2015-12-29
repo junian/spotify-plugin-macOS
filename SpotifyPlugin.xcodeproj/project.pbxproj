@@ -6,9 +6,15 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A1E9435A1C325E6400E2B15D /* SpotifyApi.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1E943581C325E6400E2B15D /* SpotifyApi.mm */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A1E9433F1C3251F600E2B15D /* SpotifyPlugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifyPlugin.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E943421C3251F600E2B15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1E943581C325E6400E2B15D /* SpotifyApi.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SpotifyApi.mm; sourceTree = "<group>"; };
+		A1E943591C325E6400E2B15D /* SpotifyApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotifyApi.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,8 @@
 			isa = PBXGroup;
 			children = (
 				A1E943421C3251F600E2B15D /* Info.plist */,
+				A1E943581C325E6400E2B15D /* SpotifyApi.mm */,
+				A1E943591C325E6400E2B15D /* SpotifyApi.h */,
 			);
 			path = SpotifyPlugin;
 			sourceTree = "<group>";
@@ -112,6 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1E9435A1C325E6400E2B15D /* SpotifyApi.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +251,7 @@
 				A1E943471C3251F600E2B15D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

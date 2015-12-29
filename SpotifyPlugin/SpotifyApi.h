@@ -14,7 +14,6 @@
 @interface SpotifyApi: NSObject
 {
 }
-+ (NSString*) ExecuteAppleScriptWithPhrase:(NSString*) phrase;
 @end
 
 
